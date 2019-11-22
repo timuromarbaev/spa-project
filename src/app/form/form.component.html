@@ -31,8 +31,9 @@
       </div>
     </div>
 
-    <div class="form-group"></div>
+    <div class="form-group">
       <p id="formlinkp">Already have an account? <a id="formlinka" [routerLink]="['/signin']" routerLinkActive="router-link-active">Sign in</a></p>
+    </div>
     <div class="form-group">
       <button type="submit" class="btn btn-danger" [disabled]="!form.valid" [routerLink]="['/main']" routerLinkActive="router-link-active" >Sign Up</button>
     </div>
