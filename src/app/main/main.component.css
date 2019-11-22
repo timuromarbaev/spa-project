@@ -10,14 +10,14 @@
     height: auto;
     overflow: hidden;
     margin: 10px auto 10px auto;
-    background-color: #ffcdd2;
+    /* background-color: #ffcdd2; */
 }
 
 .col1{
     width: 23%;
     float: left;
     height: 300px;
-    background-color: #ffd54f;
+    background-color:rgba(229, 115, 115, 0.5);
 }
 
 .col2{
@@ -25,12 +25,16 @@
     float: left;
     height: 300px;
     margin-left: 2%;
-    background-color: #ffe082;
+    background-color: rgba(229, 115, 115, 0.5);
 }
 
-.col2{
+.col3{
     width: 23%;
     float: right;
     height: 300px;
-    background-color: #ffca28;
+    background-color:rgba(229, 115, 115, 0.5);
+}
+
+#inputblock{
+    
 }
