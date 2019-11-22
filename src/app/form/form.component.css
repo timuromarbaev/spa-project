@@ -1,0 +1,26 @@
+
+.form{
+    background-color: #212121;
+    border-radius: 7px;
+    padding: 20px;
+    margin-top: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+#formlinkp{
+    color: aliceblue;   
+}
+
+#formlinka{
+    color: #DC3545;   
+}
+
+#signup{
+    color: aliceblue;
+    text-align: center;
+    margin-left: 10px;
+}
+label{
+    color: aliceblue;
+}
