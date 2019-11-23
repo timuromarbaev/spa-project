@@ -1,13 +1,17 @@
 <div class="wrapper">
     <div class="mainbody" id="mainbody">
-        <div class="col1">Prifile</div>
+        <div class="col1">
+            <h3>{{UserName | uppercase}} {{UserLastName | uppercase}}</h3>
+            <p>Birthday: {{UserBirthday | date | uppercase }}</p>
+        </div>
         <div class="col2">
             <div class="input-group mb-3" id="inputblock">
-                <input type="text" id="postinput" class="form-control" placeholder="What`s new?" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <textarea class="form-control" id="postinput" placeholder="What`s new?" rows="3"></textarea>
                 <div class="input-group-append">
-                  <!-- <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button> -->
+                    <button type="button" id="post" class="btn btn-dark">Post</button>
                 </div>
               </div>
+              <hr>
         </div>
         <div class="col3"></div>
     </div>

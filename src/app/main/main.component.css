@@ -36,5 +36,17 @@
 }
 
 #inputblock{
-    
+    width: 400px;
+    margin: auto;
+    margin-top: 1em;
+}
+
+#postinput{
+    background-color:#FBE9E7;
+    outline: none;
+    resize: none;
+}
+
+#post{
+    background-color: #212121;
 }
