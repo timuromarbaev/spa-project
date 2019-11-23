@@ -11,6 +11,7 @@ export class FormComponent implements OnInit {
 
   form = new FormGroup({
     userName: new FormControl('', Validators.required),
+    userLastName: new FormControl('', Validators.required),
     email: new FormControl('', [Validators.required, Validators.email]),
     password: new FormControl('', [Validators.required, Validators.minLength(8)])
   });

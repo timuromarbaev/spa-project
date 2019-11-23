@@ -3,11 +3,12 @@
     <h2 id="signup">Sign In</h2>
   
     <div class="form-group">
-        <label for="userName">User name</label>
-      <input class="form-control" type="text" placeholder="Name" 
-      formControlName="userName" [ngClass]="{'is-invalid':form.get('userName').touched && form.get('userName').invalid}" required />
-      <div class="invalid-feedback">
-        <div>User Name is required</div>
+      <label for="email">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail" 
+      formControlName="email" [ngClass]="{'is-invalid':form.get('email').touched && form.get('email').invalid}" />
+      <div *ngIf="form.get('email').touched && form.get('email').invalid"  class="invalid-feedback">
+        <div *ngIf="form.get('email').errors.required">Email Name is required</div>
+        <div *ngIf="form.get('email').errors.email">Email must be a valid</div>
       </div>
     </div>
   
