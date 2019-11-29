@@ -13,16 +13,16 @@
     </div>
 
     <div class="form-group">
-      <label for="userName">Add Lastname</label>
+      <label for="userLastName">Add Lastname</label>
     <input class="form-control" type="text" placeholder="Lastname" 
-    formControlName="userName" [ngClass]="{'is-invalid':form.get('userLastName').touched && form.get('userLastName').invalid}" required />
+    formControlName="userLastName" [ngClass]="{'is-invalid':form.get('userLastName').touched && form.get('userLastName').invalid}" required />
     <div class="invalid-feedback">
       <div>Lastname is required</div>
     </div>
   </div>
 
     <div class="form-group">
-      <label for="email">Email address</label>
+      <label for="email">Email</label>
       <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail" 
       formControlName="email" [ngClass]="{'is-invalid':form.get('email').touched && form.get('email').invalid}" />
       <div *ngIf="form.get('email').touched && form.get('email').invalid"  class="invalid-feedback">

@@ -5,6 +5,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
@@ -13,6 +14,7 @@ import { MainComponent } from './main/main.component';
 import { FormSinComponent } from './form-sin/form-sin.component';
 import { AddComponent } from './backend/add/add.component';
 import { HighlightDirective } from './highlight.directive';
+import { from } from 'rxjs';
 
 
 
@@ -33,7 +35,8 @@ import { HighlightDirective } from './highlight.directive';
     MatButtonModule,
     AppRoutingModule,
     RouterModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
